@@ -1,0 +1,27 @@
+:root {
+    --white-color: #FFFFFF;
+    --bg-color: #E5E5E5;
+    --first-title-color: #303030;
+    --text-color: #555555;
+    --secondary-text-color: #9DA4BD;
+    --accent-color: #FF6C00;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.nav-list {
+color: var(--white-color);   
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+color: var(--accent-color);
+}
