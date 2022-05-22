@@ -13,6 +13,10 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
+.list {
+    text-decoration: none;
+}
+
 .nav-list {
 color: var(--white-color);   
 font-weight: 600;
